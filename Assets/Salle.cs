@@ -18,4 +18,9 @@ public class Salle : MonoBehaviour {
 	void Update () {
         
     }
+
+    public Salle Enter () {
+        Debug.Log("You walk into a new room.");
+        return this;
+    }
 }
